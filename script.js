@@ -25,7 +25,7 @@ const STATE = { siswa:[], absensi:[], pelanggaran:[], konseling:[], kolaborasi:[
    situs ini (lihat PANDUAN-UPDATE.md), supaya guru mapel tidak perlu tahu atau
    menempel URL Apps Script sama sekali. Kalau dikosongkan, layar Admin BK tetap
    bisa mengisi URL secara manual seperti sebelumnya (mode lama tidak rusak). */
-const DEFAULT_API_URL = 'https://script.google.com/macros/s/AKfycbywo11vs_usiPATZJfoW5hC355tZgdKoZcstzUHS_IhoF8qEyYAi0jb6kVIwWAddGX_nQ/exec';
+const DEFAULT_API_URL = 'https://script.google.com/macros/s/AKfycbyA55AYAhGGk_YeDSr99fHjYAlbfjig89XNQW0SZibGGMBH53YLmYeeP2ya2ViX-x1uRg/exec';
 
 /* URL Web App yang pernah tersimpan di browser (localStorage) dulu SELALU menang atas
    DEFAULT_API_URL, jadi setelah URL di file ini diganti, browser yang sudah pernah login
